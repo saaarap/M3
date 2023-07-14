@@ -1,0 +1,29 @@
+.carousel-slide .col-lg-2:hover .card .card-cnt {
+    display: block;
+    height: auto;
+  }
+  .carousel-item .col-lg-2 {
+    overflow: hidden;
+    transition: all .3s ease;
+  }
+  
+  .carousel-item .col-lg-2:hover {
+    transform: scale(1.25);
+    z-index: 2;
+  
+  }
+  .carousel-inner {
+    overflow: visible;
+  }
+
+  .slider {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .slider.show {
+    opacity: 1;
+    transform: translateY(0);
+  }
+ 
